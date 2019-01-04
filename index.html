@@ -1,0 +1,45 @@
+<html>
+    <head>
+<style>
+.center {
+  margin: auto;
+  margin-top: 5em;
+  width: 50%;
+  text-align: center;
+}
+
+span {
+  font-family: 'Voltaire', sans-serif;
+  position: relative;
+  display: inline-block;
+  font-size: 6em;
+  text-align: center;
+  letter-spacing: -0.080em;
+}
+
+.fliph {
+  display: inline-block;
+  top: .215em; /*constant value */
+  /*vertical-align: bottom;*/
+  font-size: 6.16em;
+  transform: scaley(-1); /* Or also:   rotateY(180deg) */
+  -ms-filter: fliph;
+  filter: fliph;
+}
+
+.lower {
+  display: inline-block;
+  color: #6c6c6c;
+  top: 0em;
+  font-size: 6em;
+  /*vertical-align: bottom;*/
+}
+
+</style>
+	    <link href="https://fonts.googleapis.com/css?family=Voltaire" rel="stylesheet">
+    </head>
+<body>
+<div class="center">
+<span class="shift">shift</span><span class="fliph">i</span><span class="lower">us</span>
+</div>
+</body></html>
